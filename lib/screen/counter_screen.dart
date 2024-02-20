@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 class CounterScreen extends StatefulWidget {
   const CounterScreen({super.key});
+  static const String routeName = "/counter_screen";
 
   @override
   State<CounterScreen> createState() => _CounterScreenState();
